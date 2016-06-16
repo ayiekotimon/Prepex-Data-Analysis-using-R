@@ -33,6 +33,7 @@ complete.cases(data)
 
 x<- seq(0,1, length=10)
 x
+#obtaining the length of the dataset in the whole data
 length(data)
 length(data$intakeq1)
 seq_along(x)
