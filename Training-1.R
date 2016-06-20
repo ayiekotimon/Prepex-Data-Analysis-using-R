@@ -1,3 +1,4 @@
+#Importing the data file into the R console and obtaining the dimension of the data.
 data
 dim(data)
 subject <- data[1]
