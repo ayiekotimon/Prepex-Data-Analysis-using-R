@@ -24,10 +24,14 @@ sl<-as.list(sx)
 class(sl)
 names(data)
 rownames(data)
+#assigning levels to the attribute of a variable.
 levels(redcap_event_name)
+# describing the cross-classifying factors at each combination of factor levels
 table(redcap_event_name)
 table(data$redcap_event_name)
+#obtaining the names of the objects in the data
 names(data)
+#obtaining the missing values in the dataset removeq18.factor
 is.na(removeq18.factor)
 sum(subject)
 complete.cases(removeq10)
