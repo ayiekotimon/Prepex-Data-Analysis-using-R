@@ -34,6 +34,7 @@ names(data)
 #obtaining the missing values in the dataset removeq18.factor
 is.na(removeq18.factor)
 sum(subject)
+#determining complete cases or cases which have no missing values
 complete.cases(removeq10)
 complete.cases(data)
 
