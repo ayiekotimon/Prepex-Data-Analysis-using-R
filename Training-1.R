@@ -1,5 +1,6 @@
 #Importing the data file into the R console and obtaining the dimension of the data.
 data
+#setting the dimension of the object
 dim(data)
 subject <- data[1]
 dates <- data[4]
@@ -9,6 +10,7 @@ cl18 <- data[150,]
 rowbind<-rbind(cl1, cl18)
 colMeans(data[1])
 mean(data$subject)
+#attaching the file path by accessing the location
 attach(data)
 detach(data)
 subject
